@@ -1,0 +1,356 @@
+@import 'grid.css';
+
+.site-header {
+    display: flex;
+    margin-top:  31px;
+    margin-left: 153px;
+}
+
+.site-header_logo {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 24px;
+    font-size: 20px;
+    color: #141720;
+    text-decoration: none;
+}
+
+
+.main-menu {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+
+    color: #5D5F65;
+}
+
+.main-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.main-menu li {
+    display: inline-block;
+}
+
+
+.main-menu a {
+    display: block;
+    color: #000000;
+    text-decoration: none;
+    padding: 8px 10px;
+}
+
+.main-menu a:hover {
+    color: red;
+    transition: color, 3s, ease;
+}
+
+.header-h1 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 54px;
+    font-size: 44px;
+    text-align: center;
+    letter-spacing: 1px;
+
+    color: #141720;
+}
+
+.header-h2 {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 60px;
+    font-size: 25px;
+    text-align: center;
+    letter-spacing: 0.5px;
+
+    color: #5D5F65;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-header {
+    display: flex;
+    justify-content: center;
+}
+
+.block {
+    padding: 11%;
+    padding-top: 13%;
+}
+
+.block-text {
+    padding: 16% 11%;
+}
+
+.block-text-not-main {
+    padding: 8%;
+}
+
+.art-h1 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 26px;
+    font-size: 28px;
+    letter-spacing: 1px;
+
+}
+
+.text-style {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 26px;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+}
+
+.black-bg {
+    background: #141720;
+    color: #ffffff;
+}
+
+.white-bg {
+    background-color: #ffffff;
+    color: #5D5F65;
+}
+
+
+.img1 {
+    background-image: url("../img/1536355058_45135.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+.img2 {
+    background-image: url("../img/паркинг2.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+.img3 {
+    background-image: url("../img/BoschPressRelease_Parking smarter_3.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+
+.img4 {
+    background-image: url("../img/3.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+
+
+
+.list-style {
+    background-color: #EFEFEF;
+    padding-bottom: 10%;
+}
+
+.list-style li {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 26px;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+
+    color: #5D5F65;
+
+    list-style-type: none;
+}
+
+.list-style li h3 {
+    margin-bottom: 14px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 26px;
+    font-size: 20px;
+    color: #141720;
+}
+
+.list-header {
+    padding-top: 12%;
+    padding-bottom: 7%;
+}
+
+.container-fluid-list {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.service-list-center {
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.service-list-left {
+    padding-left: 10%;
+    padding-right: 3%;
+}
+
+.service-list-right {
+    padding-left: 3%;
+    padding-right: 10%;
+}
+
+.block-form {
+    padding: 10% 11% 8% 11%;
+}
+
+.form-header {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 26px;
+    letter-spacing: 1px;
+}
+
+.form-content {
+    padding-top: 7%;
+}
+
+input, textarea {
+    border: 0px;
+    border-bottom:2px solid #ffffff;
+    background: #ffffff;
+    width: 300px;
+    height: 50px;
+    border: 1px solid black;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 26px;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    margin: 0 20px;
+    padding-bottom: 20px;
+
+}
+
+input::placeholder, textarea::placeholder {
+    color: rgba(182, 182, 182, 0.98);
+}
+
+textarea {
+    resize: none;
+    height: 200px;
+}
+
+
+button {
+    padding: 7px 20px;
+    margin: 5px;
+    background-color: red;
+    border-radius: 15px;
+    border: 0px;
+
+    color: white;
+
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 26px;
+    font-size: 15px;
+    letter-spacing: 0.1875px;
+}
+
+button:hover {
+    background-color: white;
+    color: red;
+}
+
+
+
+.button-style {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.color-text {
+    color: white;
+}
+
+p {
+    padding-top: 10px;
+}
+
+.map-places {
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 5px;
+    background-color: #5d5f65;
+    border: 1px solid blue;
+    border-radius: 5px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.block-places {
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+}
+
+.row-places {
+    display: flex;
+    flex-direction: column;
+}
+
+.row-places-left {
+    margin-right: 30px;
+}
+.row-places-right {
+    margin-left: 30px;
+}
+
+.place {
+    width: 124px;
+    height: 70px;
+    background-color: #5d5f65;
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+}
+
+.title {
+    padding: 20px;
+}
+
+.table-places {
+    padding: 2%;
+    margin: 20px 3%;
+}
+
+.button {
+    margin: 20px 0;
+}

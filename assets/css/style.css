@@ -305,7 +305,7 @@ p {
 }
 
 .map-places {
-    margin-top: 20px;
+    margin-top: 10px;
     margin-left: 20px;
     padding: 5px;
     background-color: #5d5f65;
@@ -337,8 +337,8 @@ p {
 }
 
 .place {
-    width: 124px;
-    height: 70px;
+    width: 105px;
+    height: 60px;
     background-color: #5d5f65;
     border-bottom: 2px solid white;
     border-top: 2px solid white;

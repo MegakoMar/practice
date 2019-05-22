@@ -11,7 +11,7 @@
     font-style: normal;
     font-weight: bold;
     line-height: 24px;
-    font-size: 20px;
+    font-size: 24px;
     color: #141720;
     text-decoration: none;
 }
@@ -151,6 +151,13 @@
 
 .img4 {
     background-image: url("../img/3.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+
+.img5 {
+    background-image: url("../img/dLtjYC46b7Q.jpg");
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
@@ -353,4 +360,135 @@ p {
 
 .button {
     margin: 20px 0;
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+}
+
+button a:hover {
+    background: white;
+    color: red;
+}
+
+.label-auto {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 1px;
+}
+
+.element-form {
+    padding: 10px 0px 10px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.headpad {
+    padding-bottom: 20px;
+}
+
+li a:hover {
+    text-decoration: none;
+}
+
+.left-block {
+    border: 1px solid red;
+    padding: 10%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 1px;
+    padding-right: 15%;
+
+}
+
+.left-block li {
+    list-style-type: none;
+}
+
+.left-block a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+    padding: 5px 0 5px 0;
+}
+
+.left-block a:hover {
+    color: red;
+}
+
+.left-block a img {
+    padding-right: 5px;
+}
+
+.ls-head {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 26px;
+    letter-spacing: 1px;
+    display: flex;
+    justify-content: flex-start;
+    padding: 3% 0 3% 0;
+}
+
+.ls-active a{
+    color: red;
+}
+.ls-active a:hover {
+    color: #5D5F65;
+}
+
+.right-block {
+    border: 1px solid red;
+    padding: 4%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 1px;
+    margin-left: -20px;
+    margin-right: 3%;
+}
+
+.rgh-header {
+    font-weight: bold;
+    font-size: 26px;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 4%;
+}
+
+.information {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.ls-img {
+    width:200px;
+    height: 200px;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-width: 5px;
+    border-style: dashed;
+    border-color: black;
+}
+
+.info {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-user {
+    padding: 10px 0 10px 0;
 }

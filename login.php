@@ -9,7 +9,7 @@
 <body>
 <header class="site-header">
     <a href="#" class="site-header_logo">Smart Parking</a>
-    <div class="container row headerrow">
+    <div class="container row headerrow headpad">
         <nav class="site-header_menu main-menu">
             <ul>
                 <li><a href="index.php" class="is-active">Главная</a></li>
@@ -23,27 +23,31 @@
 <div class="container-fluid">
     <div class="row">
         <div class="col-6 block black-bg">
-            <div class="">
-                <span class="art-h1">Форма авторизации</span>
+            <div class="content">
+                <span class="art-h1">Авторизация</span>
             </div>
             <div class="content text-style">
                 <form action="authorization.php" method="POST">
-                    <div class="form-group">
-                        <label for="inputUsername">Username</label>
-                        <input type="text"  name="username" class="form-control" id="inputUsername" aria-describedby="usernameHelp" placeholder="Username" required>
+                    <div class="content">
+                        <div class="form-group element-form">
+                            <label for="inputUsername" class="label-auto content">Логин
+                                <input type="text"  name="username" class="form-control" id="inputUsername" aria-describedby="usernameHelp" placeholder="Username" required>
+                            </label>
+                        </div>
+                        <div class="form-group element-form">
+                            <label for="inputPass" class="label-auto content">Пароль
+                                <input type="password" name="password" class="form-control" id="inputPass" placeholder="Password" required>
+                            </label>
+                        </div>
+                        <div class="">
+                            <button type="submit" class="btn btn-primary"> Войти </button>
+                            <button class="btn btn-primary button-a" value="Регитрация"><a href="registration.php">Регитрация</a></button>
+                        </div>
                     </div>
-                    <div class="form-group">
-                        <label for="inputPass">Password</label>
-                        <input type="password" name="password" class="form-control" id="inputPass" placeholder="Password" required>
-                    </div>
-                    <button type="submit" class="btn btn-primary"> Войти </button>
-                </form>
-                <form action="registration.php" method="get">
-                    <button type="submit" class="btn btn-primary" value="Регитрация">Регитрация</button>
                 </form>
             </div>
         </div>
-        <div class="col-6 img1"></div>
+        <div class="col-6 img5"></div>
     </div>
 </div>
 

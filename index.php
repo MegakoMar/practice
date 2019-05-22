@@ -168,7 +168,9 @@
 
     <div class="container-fluid">
         <div class="row">
-            <div class="col-6 img4"></div>
+            <div class="col-6">
+                <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Adba7dbf2c1aa8952d2779d30a7a5ab67f242f0dfd68cb4e252c6c98cd8aec6de&amp;width=500&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
+            </div>
             <div class="col-6 block black-bg content">
                 <div class="">
                     <span class="art-h1">Наше расположение</span>

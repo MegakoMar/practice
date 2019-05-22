@@ -15,7 +15,7 @@
             <ul>
                 <li><a href="index.php" class="is-active">Главная</a></li>
                 <li><a href="change-place.php">Выбрать место</a></li>
-                <li><a href="contact_us.php ">Личный кабинет</a></li>
+                <li><a href="account.php ">Личный кабинет</a></li>
             </ul>
         </nav>
     </div>

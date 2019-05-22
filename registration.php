@@ -31,12 +31,12 @@
                 <form action="create_user.php" method="post">
                     <div class="form-group element-form">
                         <label for="inputUsername" class="label-auto content">Логин
-                            <input type="text" name="username" class="form-control" id="inputUsername" aria-describedby="usernameHelp" placeholder="Username" required>
+                            <input type="text" name="username" class="form-control" id="inputUsername" aria-describedby="usernameHelp" placeholder="Логин" required>
                         </label>
                     </div>
                     <div class="form-group element-form">
                         <label for="inputPass" class="label-auto content">Пароль
-                            <input type="password" name="password" class="form-control" id="inputPass" placeholder="Password" required>
+                            <input type="password" name="password" class="form-control" id="inputPass" placeholder="Пароль" required>
                         </label>
                     </div>
                     <div class="form-group element-form">
@@ -46,11 +46,11 @@
                     </div>
                     <div class="form-group element-form">
                         <label for="inputTelephone" class="label-auto content">Телефон
-                            <input type="text" name="telephone" class="form-control" id="inputTelephone" aria-describedby="telephoneHelp" placeholder="Telephone" required>
+                            <input type="text" name="telephone" class="form-control" id="inputTelephone" aria-describedby="telephoneHelp" placeholder="Номер телефона" required>
                         </label>
                     </div>
                     <div class="content">
-                        <button type="submit" class="btn btn-primary btn-block"> Отправить </button>
+                        <button type="submit" class="btn btn-primary btn-block"> Регистрация </button>
                     </div>
                 </form>
             </div>

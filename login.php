@@ -2,6 +2,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Авторизация</title>
+    <link href="assets/img/faviconka_ru_1217.png" rel="shortcut icon" type="image/x-icon">
     <link rel="stylesheet" href="#">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/bootstrap-4.3.1-dist/css/bootstrap.css">
@@ -40,7 +41,7 @@
                             </label>
                         </div>
                         <div class="">
-                            <button type="submit" class="btn btn-primary"> Войти </button>
+                            <button type="button" class="btn btn-primary"> Войти </button>
                             <button class="btn btn-primary button-a" value="Регистрация"><a href="registration.php">Регитрация</a></button>
                         </div>
                     </div>

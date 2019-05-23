@@ -517,3 +517,20 @@ li a:hover {
     font-weight: bold;
     font-size: 22px;
 }
+
+.upper {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.information input::placeholder {
+    color: #5D5F65;
+    font-size: 17px;
+}
+
+.info input[type=file] {
+    border: none;
+    margin-top: 10px;
+    margin-left: -10px;
+}

@@ -2,6 +2,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Главная</title>
+    <link href="assets/img/faviconka_ru_1217.png" rel="shortcut icon" type="image/x-icon">
     <link rel="stylesheet" href="#">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/bootstrap-4.3.1-dist/css/bootstrap.css">

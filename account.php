@@ -10,6 +10,7 @@ else
 <head>
     <meta charset="UTF-8">
     <title>Личный кабинет</title>
+    <link href="assets/img/faviconka_ru_1217.png" rel="shortcut icon" type="image/x-icon">
     <link rel="stylesheet" href="#">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/bootstrap-4.3.1-dist/css/bootstrap.css">
@@ -45,12 +46,12 @@ else
 </div>
 <div class="container-fluid">
     <div class="row">
-        <div class="col-4 content">
+        <div class="col-4 content upper">
             <div class="left-block">
                 <ul>
                     <li class="ls-active"><a href="account.php"><img src="assets/img/userprofile_118350.png">О ВАС</a></li>
                     <li><a href="#"><img src="assets/img/sheetandpencil_118361.png">ИСТОРИЯ</a></li>
-                    <li><a href="#"><img src="assets/img/mechanicwrench_118392.png">НАСТРОЙКИ</a></li>
+                    <li><a href="settings.php"><img src="assets/img/mechanicwrench_118392.png">НАСТРОЙКИ</a></li>
                 </ul>
             </div>
         </div>

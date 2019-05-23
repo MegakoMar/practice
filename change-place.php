@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Выбор места</title>
+    <link href="assets/img/faviconka_ru_1217.png" rel="shortcut icon" type="image/x-icon">
     <link rel="stylesheet" href="assets/css/style.css">
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">

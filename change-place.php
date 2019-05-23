@@ -44,10 +44,10 @@
             <div class="map-places">
                 <div class="block-places">
                     <div class="row-places-left">
-                        <div class="place" id="A1" data-toggle="modal" data-target="#myModal">
+                        <div class="place" id="A1">
                             <span>A1</span>
                         </div>
-                        <div class="place" id="A2">
+                        <div class="place" id="A2" data-toggle="modal" data-target="#myModal">
                             <span>A2</span>
                         </div>
                         <div class="place" id="A3">
@@ -314,6 +314,10 @@
                                                 <option>19:00</option>
                                                 <option>20:00</option>
                                                 <option>21:00</option>
+                                                <option>22:00</option>
+                                                <option>23:00</option>
+                                                <option>00:00</option>
+                                                <option>01:00</option>
                                             </select>
                                         </label>
                                     </div>
@@ -336,8 +340,13 @@
                                                 <option>20:00</option>
                                                 <option>21:00</option>
                                                 <option>22:00</option>
+                                                <option>23:00</option>
+                                                <option>00:00</option>
                                             </select>
                                         </label>
+                                    </div>
+                                    <div class="">
+                                        <span>Цена: 40 руб./ч.</span>
                                     </div>
                                     <div class="element-form">
                                         <div class="button">
@@ -345,6 +354,11 @@
                                         </div>
                                     </div>
                                 </form>
+                                <!--
+                                <div class="element-form">
+                                    <span>Данное место занято в выбранный момент времени</span>
+                                </div>
+                                -->
                             </div>
                         </div>
                     </div>

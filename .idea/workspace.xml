@@ -2,10 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d1244f0-eb26-4605-b567-caf41f400b1f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jquery/slick-1.8.1/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jquery/slick-1.8.1/CONTRIBUTING.markdown" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jquery/slick-1.8.1/ISSUE_TEMPLATE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jquery/slick-1.8.1/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jquery/slick-1.8.1/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jquery/slick-1.8.1/README.markdown" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jquery/slick-1.8.1/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jquery/slick-1.8.1/component.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jquery/slick-1.8.1/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jquery/slick-1.8.1/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jquery/slick-1.8.1/slick.jquery.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jquery/slick-1.8.1/slick/ajax-loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jquery/slick-1.8.1/slick/config.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jquery/slick-1.8.1/slick/fonts/slick.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jquery/slick-1.8.1/slick/fonts/slick.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jquery/slick-1.8.1/slick/fonts/slick.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jquery/slick-1.8.1/slick/fonts/slick.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jquery/slick-1.8.1/slick/slick-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jquery/slick-1.8.1/slick/slick-theme.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jquery/slick-1.8.1/slick/slick-theme.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jquery/slick-1.8.1/slick/slick.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jquery/slick-1.8.1/slick/slick.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jquery/slick-1.8.1/slick/slick.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jquery/slick-1.8.1/slick/slick.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jquery/slick-1.8.1/slick/slick.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/ajax.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/ajax.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/change-place.php" beforeDir="false" afterPath="$PROJECT_DIR$/change-place.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/registration.php" beforeDir="false" afterPath="$PROJECT_DIR$/registration.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,101 +88,84 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="13" />
+          <entry key="css" value="14" />
           <entry key="html" value="1" />
-          <entry key="js" value="2" />
-          <entry key="php" value="45" />
+          <entry key="js" value="5" />
+          <entry key="php" value="50" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="13" />
+          <entry key="CSS" value="14" />
           <entry key="HTML" value="1" />
-          <entry key="JavaScript" value="2" />
-          <entry key="PHP" value="45" />
+          <entry key="JavaScript" value="5" />
+          <entry key="PHP" value="50" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="1441" />
+          <entry key="css" value="1451" />
           <entry key="html" value="234" />
-          <entry key="js" value="91" />
-          <entry key="php" value="3234" />
+          <entry key="js" value="588" />
+          <entry key="php" value="3622" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="1441" />
+          <entry key="CSS" value="1451" />
           <entry key="HTML" value="234" />
-          <entry key="JavaScript" value="91" />
-          <entry key="PHP" value="3234" />
+          <entry key="JavaScript" value="588" />
+          <entry key="PHP" value="3622" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/login.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="731">
-                  <caret line="43" column="81" selection-start-line="43" selection-start-column="81" selection-end-line="43" selection-end-column="81" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/change-place.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="104">
-                  <caret line="246" lean-forward="true" selection-start-line="246" selection-end-line="246" />
-                  <folding>
-                    <element signature="n#div#0;n#div#0;n#form#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-                    <element signature="e#15071#15078#1#HTML" expanded="true" />
-                    <element signature="n#select#0;n#label#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#select#0;n#label#0;n#div#2;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#select#0;n#label#0;n#div#3;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/assets/css/style.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="664">
-                  <caret line="511" column="22" selection-start-line="511" selection-start-column="22" selection-end-line="511" selection-end-column="22" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/assets/css/style.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="670">
-                  <caret line="513" column="1" lean-forward="true" selection-start-line="513" selection-start-column="1" selection-end-line="513" selection-end-column="1" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/authorization.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="323">
-                  <caret line="19" column="19" lean-forward="true" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/login.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="819">
+              <caret line="51" column="19" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/change-place.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="212" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="212" />
+              <folding>
+                <element signature="n#form#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/registration.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="562">
+              <caret line="64" column="44" selection-start-line="64" selection-start-column="44" selection-end-line="64" selection-end-column="44" />
+              <folding>
+                <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/js/regAjax.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="26" column="67" selection-start-line="26" selection-start-column="67" selection-end-line="26" selection-end-column="67" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -196,7 +205,6 @@
         <option value="$PROJECT_DIR$/contact_us.php" />
         <option value="$PROJECT_DIR$/pay.php" />
         <option value="$PROJECT_DIR$/assets/js/data.php" />
-        <option value="$PROJECT_DIR$/assets/js/ajax.js" />
         <option value="$PROJECT_DIR$/data.php" />
         <option value="$PROJECT_DIR$/config.php" />
         <option value="$PROJECT_DIR$/create_user.php" />
@@ -204,10 +212,12 @@
         <option value="$PROJECT_DIR$/authorization.php" />
         <option value="$PROJECT_DIR$/account.php" />
         <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/registration.php" />
-        <option value="$PROJECT_DIR$/login.php" />
+        <option value="$PROJECT_DIR$/assets/js/ajax.js" />
         <option value="$PROJECT_DIR$/assets/css/style.css" />
+        <option value="$PROJECT_DIR$/login.php" />
         <option value="$PROJECT_DIR$/change-place.php" />
+        <option value="$PROJECT_DIR$/assets/js/regAjax.js" />
+        <option value="$PROJECT_DIR$/registration.php" />
       </list>
     </option>
   </component>
@@ -216,11 +226,6 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths>
-      <path value="$PROJECT_DIR$/assets/jquery/slick-1.8.1/package.json" />
-    </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
     <option name="x" value="726" />
@@ -250,6 +255,12 @@
               <item name="Practika" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Practika" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Practika" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -312,18 +323,18 @@
       <workItem from="1558456886930" duration="10384000" />
       <workItem from="1558535830035" duration="966000" />
       <workItem from="1558558911488" duration="688000" />
-      <workItem from="1558605285846" duration="3606000" />
+      <workItem from="1558605285846" duration="7603000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39044000" />
+    <option name="totallyTimeSpent" value="43041000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16523606" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.16523606" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -343,6 +354,27 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16523606" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -377,13 +409,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/contact_us.php" />
-    <entry file="file://$PROJECT_DIR$/assets/js/ajax.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///Library/WebServer/Documents/www/new_client.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="245">
@@ -436,13 +461,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/registration.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="52" column="92" selection-start-line="52" selection-start-column="92" selection-end-line="52" selection-end-column="92" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../KokocGroup/form/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1989">
@@ -464,17 +482,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/login.php">
+    <entry file="file://$PROJECT_DIR$/assets/js/ajax.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="43" column="81" selection-start-line="43" selection-start-column="81" selection-end-line="43" selection-end-column="81" />
+        <state relative-caret-position="681">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="664">
-          <caret line="511" column="22" selection-start-line="511" selection-start-column="22" selection-end-line="511" selection-end-column="22" />
+        <state relative-caret-position="698">
+          <caret line="516" column="22" selection-start-line="516" selection-start-column="22" selection-end-line="516" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -485,16 +503,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/regAjax.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="67" selection-start-line="26" selection-start-column="67" selection-end-line="26" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="819">
+          <caret line="51" column="19" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/change-place.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="246" lean-forward="true" selection-start-line="246" selection-end-line="246" />
+        <state relative-caret-position="136">
+          <caret line="8" column="212" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="212" />
           <folding>
-            <element signature="n#div#0;n#div#0;n#form#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="e#15071#15078#1#HTML" expanded="true" />
-            <element signature="n#select#0;n#label#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#select#0;n#label#0;n#div#2;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#select#0;n#label#0;n#div#3;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#form#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/registration.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="562">
+          <caret line="64" column="44" selection-start-line="64" selection-start-column="44" selection-end-line="64" selection-end-column="44" />
+          <folding>
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>

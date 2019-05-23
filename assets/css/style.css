@@ -512,3 +512,8 @@ li a:hover {
     font-weight: bold;
     font-size: 19px;
 }
+
+#errorMessage {
+    font-weight: bold;
+    font-size: 22px;
+}

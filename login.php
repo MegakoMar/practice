@@ -45,6 +45,11 @@
                         </div>
                     </div>
                 </form>
+                <!--
+                <div id="errorMess" class="label-auto">
+                    <span>Неправильные логин или пароль</span>
+                </div>
+                -->
             </div>
         </div>
         <div class="col-6 img5"></div>

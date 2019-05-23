@@ -41,7 +41,7 @@
                         </div>
                         <div class="">
                             <button type="submit" class="btn btn-primary"> Войти </button>
-                            <button class="btn btn-primary button-a" value="Регитрация"><a href="registration.php">Регитрация</a></button>
+                            <button class="btn btn-primary button-a" value="Регистрация"><a href="registration.php">Регитрация</a></button>
                         </div>
                     </div>
                 </form>

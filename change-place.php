@@ -1,9 +1,11 @@
+<?php date_default_timezone_set('Europe/Moscow'); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Выбор места</title>
     <link rel="stylesheet" href="assets/css/style.css">
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
 </head>
@@ -34,6 +36,7 @@
     <div class="row content title">
         <h1>Выбор места</h1>
     </div>
+    <span class="content"><?php echo date("D j M Текущее время - H:i"); ?></span>
 </div>
 <div class="container">
     <form>
@@ -41,7 +44,7 @@
             <div class="map-places">
                 <div class="block-places">
                     <div class="row-places-left">
-                        <div class="place" id="A1">
+                        <div class="place" id="A1" data-toggle="modal" data-target="#myModal">
                             <span>A1</span>
                         </div>
                         <div class="place" id="A2">
@@ -240,46 +243,117 @@
             </div>
         </div>
     </form>
+</div>
 
-    <div class="container">
-        <div class="row content">
-            <div class="col-6 table-places ">
-                <form>
-                    <label>Выбор ряда
-                        <select>
-                            <option>A</option>
-                            <option>B</option>
-                            <option>C</option>
-                            <option>D</option>
-                            <option>E</option>
-                            <option>F</option>
-                        </select>
-                    </label>
-                    <label>
-                        Выбор места
-                        <select>
-                            <option>1</option>
-                            <option>2</option>
-                            <option>3</option>
-                            <option>4</option>
-                            <option>5</option>
-                            <option>6</option>
-                            <option>7</option>
-                            <option>8</option>
-                            <option>9</option>
-                            <option>10</option>
-                        </select>
-                    </label>
-                    <input type="date">
-                    <input type="time">
-                    <div class="button">
-                        <button>Подтвердить</button>
+
+<!-- Модальное окно -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="container">
+                    <div class="row content">
+                        <div class="col-6 table-places ">
+                            <div class="content">
+                                <span class="form-h1">Бронирование места</span>
+                                <form>
+                                    <div class="element-form">
+                                        <label class="label-modal">Выбор ряда
+                                            <select>
+                                                <option>A</option>
+                                                <option>B</option>
+                                                <option>C</option>
+                                                <option>D</option>
+                                                <option>E</option>
+                                                <option>F</option>
+                                            </select>
+                                        </label>
+                                        <label class="label-modal">Выбор места
+                                            <select>
+                                                <option>1</option>
+                                                <option>2</option>
+                                                <option>3</option>
+                                                <option>4</option>
+                                                <option>5</option>
+                                                <option>6</option>
+                                                <option>7</option>
+                                                <option>8</option>
+                                                <option>9</option>
+                                                <option>10</option>
+                                            </select>
+                                        </label>
+                                    </div>
+                                    <div class="">
+                                        <label> Дата
+                                            <div class="element-form">
+                                                <input type="date">
+                                            </div>
+                                        </label>
+                                    </div>
+                                    <div>
+                                        <label> Время начала брони
+                                            <select>
+                                                <option></option>
+                                                <option>07:00</option>
+                                                <option>08:00</option>
+                                                <option>09:00</option>
+                                                <option>10:00</option>
+                                                <option>11:00</option>
+                                                <option>12:00</option>
+                                                <option>13:00</option>
+                                                <option>14:00</option>
+                                                <option>15:00</option>
+                                                <option>16:00</option>
+                                                <option>17:00</option>
+                                                <option>18:00</option>
+                                                <option>19:00</option>
+                                                <option>20:00</option>
+                                                <option>21:00</option>
+                                            </select>
+                                        </label>
+                                    </div>
+                                    <div>
+                                        <label> Время окончания брони
+                                            <select>
+                                                <option></option>
+                                                <option>08:00</option>
+                                                <option>09:00</option>
+                                                <option>10:00</option>
+                                                <option>11:00</option>
+                                                <option>12:00</option>
+                                                <option>13:00</option>
+                                                <option>14:00</option>
+                                                <option>15:00</option>
+                                                <option>16:00</option>
+                                                <option>17:00</option>
+                                                <option>18:00</option>
+                                                <option>19:00</option>
+                                                <option>20:00</option>
+                                                <option>21:00</option>
+                                                <option>22:00</option>
+                                            </select>
+                                        </label>
+                                    </div>
+                                    <div class="element-form">
+                                        <div class="button">
+                                            <button>Перейти к оплате</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
                     </div>
-                </form>
+                </div>
             </div>
         </div>
     </div>
 </div>
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="assets/js/ajax.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
